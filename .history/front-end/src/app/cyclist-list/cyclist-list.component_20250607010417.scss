@@ -1,0 +1,27 @@
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.table {
+  margin-bottom: 0;
+  
+  th {
+    font-weight: 600;
+  }
+}
+
+.badge {
+  text-transform: capitalize;
+}
+
+.btn-light {
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+}
+
+.modal-header {
+  .btn-close-white {
+    filter: brightness(0) invert(1);
+  }
+}
